@@ -35,7 +35,7 @@ public class JavaApplication5 {
         
           if(Diskriminan==0){
             AkarPolinomial1 = -b/(2*a);
-            System.out.println("2. Akar-akar polinomial    = " + AkarPolinomial1);
+            System.out.println("2.Akar-akar polinomial    = " + AkarPolinomial1);
             
         }else if(Diskriminan>0){
           AkarPolinomial1 = ((-b) + Math.sqrt(Diskriminan))/(2*a); 
@@ -46,7 +46,7 @@ public class JavaApplication5 {
           AkarPolinomial2*=1000;
           AkarPolinomial21 = Math.floor(AkarPolinomial2);
           AkarPolinomial21/=1000;
-          System.out.println("2. Akar-akar polinomial    = " + AkarPolinomial11 + " dan " + AkarPolinomial21);
+          System.out.println("2.Akar-akar polinomial    = " + AkarPolinomial11 + " dan " + AkarPolinomial21);
           
         }else if(Diskriminan<0 && b==0){
           AkarPolinomial1 = (((-b) + Math.sqrt((-Diskriminan)))/(2*a)); 
@@ -57,7 +57,7 @@ public class JavaApplication5 {
           AkarPolinomial1*=1000;
           AkarPolinomial21 = Math.floor(AkarPolinomial2);
           AkarPolinomial21/=1000;
-          System.out.println("2. Akar-akar polinomial = " + AkarPolinomial11 + "i dan " + AkarPolinomial21 + "i");
+          System.out.println("2.Akar-akar polinomial = " + AkarPolinomial11 + "i dan " + AkarPolinomial21 + "i");
           
           
         }else if(Diskriminan<0 && b!=0){
@@ -81,7 +81,7 @@ public class JavaApplication5 {
           AkarPolinomial22 = Math.floor(AkarPolinomial21);
           AkarPolinomial22/=1000;
             String akar12;
-             System.out.println("2. Akar-akar polinomial    = " + AkarPolinomial13 + " + " + AkarPolinomial12 + "i dan " + AkarPolinomial23 + " - " +AkarPolinomial22 + "i");
+             System.out.println("2.Akar-akar polinomial    = " + AkarPolinomial13 + " + " + AkarPolinomial12 + "i dan " + AkarPolinomial23 + " - " +AkarPolinomial22 + "i");
         }  
         
         if (m==0){

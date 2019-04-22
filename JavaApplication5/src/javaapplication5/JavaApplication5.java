@@ -56,7 +56,7 @@ public class JavaApplication5 {
         
         else if (a==0){
             System.out.println("Nilai a tidak boleh 0");
-}}}
+}}
     }
     
-}
+
